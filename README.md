@@ -1,19 +1,48 @@
-# AIAD - "Agentes Inteligentes no Combate a Incêndios Florestais"
+# Intelligent Agents in the Fight against Forest Fires
 
-O cenário escolhido para este projeto foi o de combate aos fogos com recurso a aviões.
+### Description
 
-Neste cenário teríamos, como agentes, os aviões e o quartel - responsável por coordenar os aviões, e, como ambiente, os fogos e os postos de abastecimento de água (rios, mares, lagoas, ...). Os aviões teriam uma capacidade limitada de abastecimento.
+The scenario chosen for this project was to combat fires with the use of airplanes.
 
-O objetivo seria introduzir ludificação (*gamification*) neste contexto, de forma a que teríamos quase como um combate entre água e fogo. Imaginemos que um avião tinha x água para combater 2x fogo. Quando o avião largasse a água sobre o fogo passaríamos a ter 2x-x=x fogo. Isto permitir-nos-ia ter fogos com várias dimensões e postos de abastecimento de água com mais ou menos quantidade de água.
+In this scenario we have, as agents, the airplanes and the headquarters - responsible for coordinating the airplanes, and, as an environment, the fires and the water supply stations (rivers, seas, lagoons, ...). Airplanes would have limited supply capacity.
 
-### Exemplos de variáveis dependentes:
-+ Quantidade de aviões disponíveis;
-+ Tempo de espera necessário para cada avião;
-+ Ocupação dos recursos;
+We used RapidMiner for the second part of the project in order to predict the time it takes to put out fire given the number of fires and various characteristics of the environment.
 
-### Exemplos de variáveis independentes:
-+ Quantidade/tamanho de cada fogo;
-+ Quantidade de fogos em si;
-+ Critérios de repartição dos aviões pelos incêndios;
-+ Quantidade de abastecimentos/recursos disponíveis;
-+ Características de cada avião;
+### Examples of dependent variables:
+
++ Number of airplanes available;
++ Waiting time required for each airplane;
++ Resource allocation;
+
+### Examples of independent variables:
+
++ Quantity / size of each fire;
++ Number of fires in itself;
++ Criteria for allocation of airplanes by fires;
++ Quantity of supplies / resources available;
++ Characteristics of each airplane;
+
+### Technologies/Tools and Languages
+```
+RapidMiner Studio
+JADE
+Java
+ContractNet Protocol
+```
+
+### Authors
+
+* Bernardo Leite 
+* Bruno Pinto
+* Rúben Barreiro
+
+### Screenshots
+
+#### Project - Airplanes, Water Resources and Fires
+
+![fire](https://user-images.githubusercontent.com/22004638/51705211-e1204780-2012-11e9-9688-9fba1df52b97.PNG)
+
+#### Project - Structure Overview on RapidMiner
+
+![rapidminer](https://user-images.githubusercontent.com/22004638/51705210-e1204780-2012-11e9-9a44-c582e5364ae1.png)
+
